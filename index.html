@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="avatar.png">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 22</title>
+</head>
+<body>
+   <div class="wrapper">
+     <header class="header">
+      <h1>Основи JavaScript</h1>
+
+      </header>
+      <main class="page">
+         <div class="page__container">
+            <article class="page__block">
+               <h2>Домашка №1  JS  "Основи синтаксиса" </h2>
+               <h3>//варіант 3</h3>
+               <p>помилка - відсутній розділовий знак ";"</p>
+               <mark>console.log('вчу') console.log('JS')</mark>
+               <h3>//варіант 4</h3>
+               <p>помилка - не закриті лапки</p> 
+               <mark>
+                   console.log('я вчу JS);
+                     console.log('я вчу JS');</mark>
+            </article>
+            <article class="page__block">
+               <h2> Домашка №2  JS "Перемінні та константи"</h2>
+               <h3>//варіант 1</h3>
+               <p>помилка - відсутній розділовий знак ","</p>
+               <mark>let user = 'Вася' let age = 36</mark>
+               <h3>//варіант 2</h3>
+               <p>не помилка, але принято дотримуватись стилів lowerCamelCase</p>
+               <mark>let myage = 36;</mark>
+            </article>
+            <article class="page__block">
+               <h2> Домашка №3  JS  "Типи данних"</h2>
+               <h3>//варіант 1</h3>
+               <p>краще використовувати зворотні лапки "`"</p>
+               <mark> let userAge = 36;
+               let userInfo = "Фрілансер ${userAge}";</mark>
+               <h3>//варіант 2</h3>
+               <p>у консоль буде виведено - Infinity</p>
+               <mark>let userHeight = 145 / 0;
+               console.log(userHeight);</mark>
+               <h3>//варіант 3</h3>
+               <p>у консоль буде виведено - undefined ,
+                  у перемінну не задано значення
+               </p>
+               <mark>let userName;
+               console.log(typeof userName);</mark>
+            </article>
+         </div>
+      </main>
+      <footer class="footer">
+      </footer>
+   </div>
+   <script src="js/script.js">
+     
+   </script>
+</body>
+</html>
